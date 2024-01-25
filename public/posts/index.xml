@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Linux Cloud Ways</title>
+    <link>https://linuxcloudways.com/posts/</link>
+    <description>Recent content in Posts on Linux Cloud Ways</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 25 Jan 2024 23:25:17 +0600</lastBuildDate><atom:link href="https://linuxcloudways.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Open GUI Apps in Remote System Display</title>
+      <link>https://linuxcloudways.com/posts/open-gui-apps-in-remote-system-display/</link>
+      <pubDate>Thu, 25 Jan 2024 23:25:17 +0600</pubDate>
+      
+      <guid>https://linuxcloudways.com/posts/open-gui-apps-in-remote-system-display/</guid>
+      
+      <description>Dependencies: openssh
+export DISPLAY=:0 </description>
+      
+    </item>
+    
+    <item>
+      <title>How to Fix Bangla Font Problem in Linux</title>
+      <link>https://linuxcloudways.com/posts/how-to-fix-bangla-font-problem-in-linux/</link>
+      <pubDate>Thu, 25 Jan 2024 23:21:02 +0600</pubDate>
+      
+      <guid>https://linuxcloudways.com/posts/how-to-fix-bangla-font-problem-in-linux/</guid>
+      
+      <description>Download Siyamrupali font and move it to ~/.local/share/fonts/bangla-fonts
+paste the code to ~/.config/fontconfig/conf.d/50-custom-bangla.conf
+&amp;lt;?xml version=&amp;#34;1.0&amp;#34;?&amp;gt; &amp;lt;!DOCTYPE fontconfig SYSTEM &amp;#34;fonts.dtd&amp;#34;&amp;gt; &amp;lt;fontconfig&amp;gt; &amp;lt;!-- Bangla (bn) --&amp;gt; &amp;lt;match target=&amp;#34;font&amp;#34;&amp;gt; &amp;lt;test name=&amp;#34;lang&amp;#34; compare=&amp;#34;contains&amp;#34;&amp;gt; &amp;lt;string&amp;gt;bn&amp;lt;/string&amp;gt; &amp;lt;/test&amp;gt; &amp;lt;alias&amp;gt; &amp;lt;family&amp;gt;sans-serif&amp;lt;/family&amp;gt; &amp;lt;prefer&amp;gt; &amp;lt;family&amp;gt;Siyamrupali&amp;lt;/family&amp;gt; &amp;lt;/prefer&amp;gt; &amp;lt;/alias&amp;gt; &amp;lt;/match&amp;gt; &amp;lt;match target=&amp;#34;font&amp;#34;&amp;gt; &amp;lt;test name=&amp;#34;lang&amp;#34; compare=&amp;#34;contains&amp;#34;&amp;gt; &amp;lt;string&amp;gt;bn&amp;lt;/string&amp;gt; &amp;lt;/test&amp;gt; &amp;lt;alias&amp;gt; &amp;lt;family&amp;gt;serif&amp;lt;/family&amp;gt; &amp;lt;prefer&amp;gt; &amp;lt;family&amp;gt;Siyamrupali&amp;lt;/family&amp;gt; &amp;lt;/prefer&amp;gt; &amp;lt;/alias&amp;gt; &amp;lt;/match&amp;gt; &amp;lt;!-- Bangla (bn) ends --&amp;gt; &amp;lt;/fontconfig&amp;gt; </description>
+      
+    </item>
+    
+    <item>
+      <title>Add Screenshot Facility in I3 Wm</title>
+      <link>https://linuxcloudways.com/posts/add-screenshot-facility-in-i3-wm/</link>
+      <pubDate>Thu, 25 Jan 2024 23:12:42 +0600</pubDate>
+      
+      <guid>https://linuxcloudways.com/posts/add-screenshot-facility-in-i3-wm/</guid>
+      
+      <description>Dependencies: maim, xclip, xdotool
+## Screenshots in files bindsym Print exec --no-startup-id maim --format=png &amp;#34;/home/$USER/Pictures/screenshot-$(date -u +&amp;#39;%Y%m%d-%H%M%SZ&amp;#39;)-all.png&amp;#34; bindsym $mod+Print exec --no-startup-id maim --format=png --window $(xdotool getactivewindow) &amp;#34;/home/$USER/Pictures/screenshot-$(date -u +&amp;#39;%Y%m%d-%H%M%SZ&amp;#39;)-current.png&amp;#34; bindsym Shift+Print exec --no-startup-id maim --format=png --select &amp;#34;/home/$USER/Pictures/screenshot-$(date -u +&amp;#39;%Y%m%d-%H%M%SZ&amp;#39;)-selected.png&amp;#34; ## Screenshots in clipboards bindsym Ctrl+Print exec --no-startup-id maim --format=png | xclip -selection clipboard -t image/png bindsym Ctrl+$mod+Print exec --no-startup-id maim --format=png --window $(xdotool getactivewindow) | xclip -selection clipboard -t image/png bindsym Ctrl+Shift+Print exec --no-startup-id maim --format=png --select | xclip -selection clipboard -t image/png </description>
+      
+    </item>
+    
+    <item>
+      <title>How to Connect Wi Fi in Vanilla Arch</title>
+      <link>https://linuxcloudways.com/posts/how-to-connect-wi-fi-in-vanilla-arch/</link>
+      <pubDate>Thu, 25 Jan 2024 22:13:17 +0600</pubDate>
+      
+      <guid>https://linuxcloudways.com/posts/how-to-connect-wi-fi-in-vanilla-arch/</guid>
+      
+      <description>
+Connect wifi during installation
+wpa_supplicant -B -i wlan0 -c &amp;lt;(wpa_passphrase &amp;#34;ssid&amp;#34; &amp;#34;passphrase&amp;#34;) Conntect WiFi on first boot N.B: Required Network Manager
+nmcli device wifi connect Your_SSID password Your_Password </description>
+      
+    </item>
+    
+  </channel>
+</rss>
