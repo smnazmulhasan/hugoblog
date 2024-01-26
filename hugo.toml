@@ -53,6 +53,16 @@ disqusShortname = ''
     url = '/posts/'
     weight = 20
   [[Languages.en-us.menu.main]]
+    pageRef="categories"
+    name = 'Categories'
+    url = '/categories/'
+    weight = 23
+  [[Languages.en-us.menu.main]]
+    pageRef="tags"
+    name = 'Tags'
+    url = '/tags/'
+    weight = 25
+  [[Languages.en-us.menu.main]]
     pageRef="about"
     name = 'About'
     url = '/about/'
@@ -110,6 +120,10 @@ url = "https://github.com/smnazmulhasan/"
 [[params.socialIcons]]
 name = "twitter"
 url = "https://twitter.com/fanaticnazmul"
+
+[[params.socialIcons]]
+name = "website"
+url = "https://nazmul.pages.dev"
 
 [[params.socialIcons]]
 name = "Rss"

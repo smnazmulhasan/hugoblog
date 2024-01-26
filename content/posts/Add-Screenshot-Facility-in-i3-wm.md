@@ -2,6 +2,8 @@
 title = 'Add Screenshot Facility in I3 Wm'
 date = 2024-01-25T23:12:42+06:00
 draft = false
+categories = ["Linux", "i3wm"]
+tags = ["linux", "archlinux", "i3", "i3wm", "screenshot"]
 +++
 
 __Dependencies:__  maim, xclip, xdotool

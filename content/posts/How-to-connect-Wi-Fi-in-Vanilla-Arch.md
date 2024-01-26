@@ -2,6 +2,8 @@
 title = 'How to Connect Wi Fi in Vanilla Arch'
 date = 2024-01-25T22:13:17+06:00
 draft = false
+categories = ["Linux", "Archlinux"]
+tags = ["linux", "archlinux", "wifi", "networkmanager", "screenshot"]
 +++
 
 ![alt](/images/archlinux.jpg)
