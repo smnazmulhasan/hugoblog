@@ -6,7 +6,7 @@ categories = ["Linux", "Archlinux"]
 tags = ["linux", "archlinux", "wifi", "networkmanager", "screenshot"]
 +++
 
-![alt](/images/archlinux.jpg)
+![alt](/images/archlinux.webp)
 
 Connect wifi during installation
 
