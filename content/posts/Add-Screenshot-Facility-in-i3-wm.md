@@ -6,7 +6,7 @@ categories = ["Linux", "i3wm"]
 tags = ["linux", "archlinux", "i3", "i3wm", "screenshot"]
 +++
 
-__Dependencies:__  maim, xclip, xdotool
+__Dependencies:__  maim, xclip, xdotool  
 __Optional Dependencies:__ flameshot, shutter
 
 ```bash
